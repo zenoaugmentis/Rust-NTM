@@ -1,0 +1,60 @@
+﻿{
+  "regions": [
+    {
+      "file": "r.0.-1.mca",
+      "size": 12288,
+      "sha256": "4a55842a8c147f8de0828c1f5a44e1c824197725243865abb33227b70fd7f988",
+      "pass_chunks": 1,
+      "errors": [],
+      "sky_sections": {
+        "nonzero": 3
+      },
+      "add_sections": {
+        "nonzero": 1,
+        "absent": 2
+      },
+      "root_tags": {
+        "Level": 1,
+        "ntm:ChunkData": 1
+      },
+      "level_tags": {
+        "xPos": 1,
+        "zPos": 1,
+        "LastUpdate": 1,
+        "TerrainPopulated": 1,
+        "LightPopulated": 1,
+        "V": 1,
+        "InhabitedTime": 1,
+        "HeightMap": 1,
+        "Biomes": 1,
+        "Sections": 1,
+        "Entities": 1,
+        "TileEntities": 1,
+        "TileTicks": 1,
+        "ntm:Radiation": 1
+      },
+      "section_tags": {
+        "Y": 3,
+        "Blocks": 3,
+        "Add": 1,
+        "Data": 3,
+        "BlockLight": 3,
+        "SkyLight": 3
+      },
+      "tick_field_types": {
+        "i:3": 1,
+        "x:3": 1,
+        "y:3": 1,
+        "z:3": 1,
+        "t:3": 1,
+        "p:3": 1
+      },
+      "compressions": {
+        "2": 1
+      },
+      "tick_entries": 1
+    }
+  ],
+  "pass_chunks": 1,
+  "errors": 0
+}

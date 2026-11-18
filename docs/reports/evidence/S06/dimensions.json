@@ -1,0 +1,1273 @@
+{
+  "schema": "horizon-s06-v1",
+  "worlds": [
+    {
+      "dimensions": [
+        {
+          "directory": "region",
+          "pass_chunks": 716,
+          "regions": [
+            {
+              "add_sections": {
+                "absent": 1151
+              },
+              "compressions": {
+                "2": 198
+              },
+              "errors": [],
+              "file": "r.-1.-1.mca",
+              "level_tags": {
+                "Biomes": 198,
+                "Entities": 198,
+                "HeightMap": 198,
+                "InhabitedTime": 198,
+                "LastUpdate": 198,
+                "LightPopulated": 198,
+                "Sections": 198,
+                "TerrainPopulated": 198,
+                "TileEntities": 198,
+                "V": 198,
+                "xPos": 198,
+                "zPos": 198
+              },
+              "pass_chunks": 198,
+              "root_tags": {
+                "Level": 198
+              },
+              "section_tags": {
+                "BlockLight": 1151,
+                "Blocks": 1151,
+                "Data": 1151,
+                "SkyLight": 1151,
+                "Y": 1151
+              },
+              "sha256": "8f5adb2b1a15824035bc1bc3057b4b0fd02585deee18fb978c46c86e0644b5d2",
+              "size": 860160,
+              "sky_sections": {
+                "all_zero": 717,
+                "nonzero": 434
+              },
+              "tick_entries": 0,
+              "tick_field_types": {}
+            },
+            {
+              "add_sections": {
+                "absent": 2651
+              },
+              "compressions": {
+                "2": 491
+              },
+              "errors": [],
+              "file": "r.-1.0.mca",
+              "level_tags": {
+                "Biomes": 491,
+                "Entities": 491,
+                "HeightMap": 491,
+                "InhabitedTime": 491,
+                "LastUpdate": 491,
+                "LightPopulated": 491,
+                "Sections": 491,
+                "TerrainPopulated": 491,
+                "TileEntities": 491,
+                "V": 491,
+                "xPos": 491,
+                "zPos": 491
+              },
+              "pass_chunks": 491,
+              "root_tags": {
+                "Level": 491
+              },
+              "section_tags": {
+                "BlockLight": 2651,
+                "Blocks": 2651,
+                "Data": 2651,
+                "SkyLight": 2651,
+                "Y": 2651
+              },
+              "sha256": "facb9ee18dae9626615080952910b2548774e2eb97d4d0b9fe4419257027b801",
+              "size": 2162688,
+              "sky_sections": {
+                "all_zero": 1682,
+                "nonzero": 969
+              },
+              "tick_entries": 0,
+              "tick_field_types": {}
+            },
+            {
+              "add_sections": {
+                "absent": 45
+              },
+              "compressions": {
+                "2": 8
+              },
+              "errors": [],
+              "file": "r.0.-1.mca",
+              "level_tags": {
+                "Biomes": 8,
+                "Entities": 8,
+                "HeightMap": 8,
+                "InhabitedTime": 8,
+                "LastUpdate": 8,
+                "LightPopulated": 8,
+                "Sections": 8,
+                "TerrainPopulated": 8,
+                "TileEntities": 8,
+                "V": 8,
+                "xPos": 8,
+                "zPos": 8
+              },
+              "pass_chunks": 8,
+              "root_tags": {
+                "Level": 8
+              },
+              "section_tags": {
+                "BlockLight": 45,
+                "Blocks": 45,
+                "Data": 45,
+                "SkyLight": 45,
+                "Y": 45
+              },
+              "sha256": "e5ec9ac8bf6b456335916b147a3889142743c81eee6c0c59ea50392720cc3e5a",
+              "size": 40960,
+              "sky_sections": {
+                "all_zero": 31,
+                "nonzero": 14
+              },
+              "tick_entries": 0,
+              "tick_field_types": {}
+            },
+            {
+              "add_sections": {
+                "absent": 124
+              },
+              "compressions": {
+                "2": 19
+              },
+              "errors": [],
+              "file": "r.0.0.mca",
+              "level_tags": {
+                "Biomes": 19,
+                "Entities": 19,
+                "HeightMap": 19,
+                "InhabitedTime": 19,
+                "LastUpdate": 19,
+                "LightPopulated": 19,
+                "Sections": 19,
+                "TerrainPopulated": 19,
+                "TileEntities": 19,
+                "V": 19,
+                "xPos": 19,
+                "zPos": 19
+              },
+              "pass_chunks": 19,
+              "root_tags": {
+                "Level": 19
+              },
+              "section_tags": {
+                "BlockLight": 124,
+                "Blocks": 124,
+                "Data": 124,
+                "SkyLight": 124,
+                "Y": 124
+              },
+              "sha256": "aae853ae3568dc9bda7dab59c964aa207b9ea4ca0e53f3c663765aed64c4a363",
+              "size": 86016,
+              "sky_sections": {
+                "all_zero": 85,
+                "nonzero": 39
+              },
+              "tick_entries": 0,
+              "tick_field_types": {}
+            }
+          ],
+          "status": "SCANNED"
+        },
+        {
+          "directory": "DIM-1/region",
+          "pass_chunks": 768,
+          "regions": [
+            {
+              "add_sections": {
+                "absent": 1737
+              },
+              "compressions": {
+                "2": 218
+              },
+              "errors": [],
+              "file": "r.-1.-1.mca",
+              "level_tags": {
+                "Biomes": 218,
+                "Entities": 218,
+                "HeightMap": 218,
+                "InhabitedTime": 218,
+                "LastUpdate": 218,
+                "LightPopulated": 218,
+                "Sections": 218,
+                "TerrainPopulated": 218,
+                "TileEntities": 218,
+                "TileTicks": 136,
+                "V": 218,
+                "xPos": 218,
+                "zPos": 218
+              },
+              "pass_chunks": 218,
+              "root_tags": {
+                "Level": 218
+              },
+              "section_tags": {
+                "BlockLight": 1737,
+                "Blocks": 1737,
+                "Data": 1737,
+                "SkyLight": 1737,
+                "Y": 1737
+              },
+              "sha256": "ecb0ac94471bab695ea507010a8d7383def9670b9e4aa6ebba6fac9a90bc3aa3",
+              "size": 946176,
+              "sky_sections": {
+                "all_zero": 1737
+              },
+              "tick_entries": 790,
+              "tick_field_types": {
+                "i:3": 790,
+                "p:3": 790,
+                "t:3": 790,
+                "x:3": 790,
+                "y:3": 790,
+                "z:3": 790
+              }
+            },
+            {
+              "add_sections": {
+                "absent": 1573
+              },
+              "compressions": {
+                "2": 219
+              },
+              "errors": [],
+              "file": "r.-1.0.mca",
+              "level_tags": {
+                "Biomes": 219,
+                "Entities": 219,
+                "HeightMap": 219,
+                "InhabitedTime": 219,
+                "LastUpdate": 219,
+                "LightPopulated": 219,
+                "Sections": 219,
+                "TerrainPopulated": 219,
+                "TileEntities": 219,
+                "TileTicks": 95,
+                "V": 219,
+                "xPos": 219,
+                "zPos": 219
+              },
+              "pass_chunks": 219,
+              "root_tags": {
+                "Level": 219
+              },
+              "section_tags": {
+                "BlockLight": 1573,
+                "Blocks": 1573,
+                "Data": 1573,
+                "SkyLight": 1573,
+                "Y": 1573
+              },
+              "sha256": "97fa36c8c394df22de81a5cd1128a985a0b55dae60ca98bb3012ab96c067e436",
+              "size": 905216,
+              "sky_sections": {
+                "all_zero": 1573
+              },
+              "tick_entries": 383,
+              "tick_field_types": {
+                "i:3": 383,
+                "p:3": 383,
+                "t:3": 383,
+                "x:3": 383,
+                "y:3": 383,
+                "z:3": 383
+              }
+            },
+            {
+              "add_sections": {
+                "absent": 1310
+              },
+              "compressions": {
+                "2": 164
+              },
+              "errors": [],
+              "file": "r.0.-1.mca",
+              "level_tags": {
+                "Biomes": 164,
+                "Entities": 164,
+                "HeightMap": 164,
+                "InhabitedTime": 164,
+                "LastUpdate": 164,
+                "LightPopulated": 164,
+                "Sections": 164,
+                "TerrainPopulated": 164,
+                "TileEntities": 164,
+                "TileTicks": 86,
+                "V": 164,
+                "xPos": 164,
+                "zPos": 164
+              },
+              "pass_chunks": 164,
+              "root_tags": {
+                "Level": 164
+              },
+              "section_tags": {
+                "BlockLight": 1310,
+                "Blocks": 1310,
+                "Data": 1310,
+                "SkyLight": 1310,
+                "Y": 1310
+              },
+              "sha256": "bdb71b4fdb904df84eb2baef6792ea28eb556397087c0fb0197f5f448b512e0f",
+              "size": 741376,
+              "sky_sections": {
+                "all_zero": 1310
+              },
+              "tick_entries": 444,
+              "tick_field_types": {
+                "i:3": 444,
+                "p:3": 444,
+                "t:3": 444,
+                "x:3": 444,
+                "y:3": 444,
+                "z:3": 444
+              }
+            },
+            {
+              "add_sections": {
+                "absent": 1280
+              },
+              "compressions": {
+                "2": 167
+              },
+              "errors": [],
+              "file": "r.0.0.mca",
+              "level_tags": {
+                "Biomes": 167,
+                "Entities": 167,
+                "HeightMap": 167,
+                "InhabitedTime": 167,
+                "LastUpdate": 167,
+                "LightPopulated": 167,
+                "Sections": 167,
+                "TerrainPopulated": 167,
+                "TileEntities": 167,
+                "TileTicks": 106,
+                "V": 167,
+                "xPos": 167,
+                "zPos": 167
+              },
+              "pass_chunks": 167,
+              "root_tags": {
+                "Level": 167
+              },
+              "section_tags": {
+                "BlockLight": 1280,
+                "Blocks": 1280,
+                "Data": 1280,
+                "SkyLight": 1280,
+                "Y": 1280
+              },
+              "sha256": "9675f25497fb76f4907535a3fca26b7e96eb99fe872c2a5ddc32e49148e41c85",
+              "size": 729088,
+              "sky_sections": {
+                "all_zero": 1280
+              },
+              "tick_entries": 587,
+              "tick_field_types": {
+                "i:3": 587,
+                "p:3": 587,
+                "t:3": 587,
+                "x:3": 587,
+                "y:3": 587,
+                "z:3": 587
+              }
+            }
+          ],
+          "status": "SCANNED"
+        },
+        {
+          "directory": "DIM1/region",
+          "pass_chunks": 626,
+          "regions": [
+            {
+              "add_sections": {
+                "absent": 160
+              },
+              "compressions": {
+                "2": 72
+              },
+              "errors": [],
+              "file": "r.-1.-1.mca",
+              "level_tags": {
+                "Biomes": 72,
+                "Entities": 72,
+                "HeightMap": 72,
+                "InhabitedTime": 72,
+                "LastUpdate": 72,
+                "LightPopulated": 72,
+                "Sections": 72,
+                "TerrainPopulated": 72,
+                "TileEntities": 72,
+                "TileTicks": 2,
+                "V": 72,
+                "xPos": 72,
+                "zPos": 72
+              },
+              "pass_chunks": 72,
+              "root_tags": {
+                "Level": 72
+              },
+              "section_tags": {
+                "BlockLight": 160,
+                "Blocks": 160,
+                "Data": 160,
+                "SkyLight": 160,
+                "Y": 160
+              },
+              "sha256": "c35e7119359788e91e3baac9d2a7801e1a7413baefade3b4b348ce4714f5c3ce",
+              "size": 303104,
+              "sky_sections": {
+                "all_zero": 160
+              },
+              "tick_entries": 2,
+              "tick_field_types": {
+                "i:3": 2,
+                "p:3": 2,
+                "t:3": 2,
+                "x:3": 2,
+                "y:3": 2,
+                "z:3": 2
+              }
+            },
+            {
+              "add_sections": {
+                "absent": 156
+              },
+              "compressions": {
+                "2": 79
+              },
+              "errors": [],
+              "file": "r.-1.0.mca",
+              "level_tags": {
+                "Biomes": 79,
+                "Entities": 79,
+                "HeightMap": 79,
+                "InhabitedTime": 79,
+                "LastUpdate": 79,
+                "LightPopulated": 79,
+                "Sections": 79,
+                "TerrainPopulated": 79,
+                "TileEntities": 79,
+                "TileTicks": 2,
+                "V": 79,
+                "xPos": 79,
+                "zPos": 79
+              },
+              "pass_chunks": 79,
+              "root_tags": {
+                "Level": 79
+              },
+              "section_tags": {
+                "BlockLight": 156,
+                "Blocks": 156,
+                "Data": 156,
+                "SkyLight": 156,
+                "Y": 156
+              },
+              "sha256": "27c8ec1e5892fcb8151c90864297e8877609addd4ec953344ae2d0eac75ed349",
+              "size": 331776,
+              "sky_sections": {
+                "all_zero": 156
+              },
+              "tick_entries": 2,
+              "tick_field_types": {
+                "i:3": 2,
+                "p:3": 2,
+                "t:3": 2,
+                "x:3": 2,
+                "y:3": 2,
+                "z:3": 2
+              }
+            },
+            {
+              "add_sections": {
+                "absent": 218
+              },
+              "compressions": {
+                "2": 228
+              },
+              "errors": [],
+              "file": "r.0.-1.mca",
+              "level_tags": {
+                "Biomes": 228,
+                "Entities": 228,
+                "HeightMap": 228,
+                "InhabitedTime": 228,
+                "LastUpdate": 228,
+                "LightPopulated": 228,
+                "Sections": 228,
+                "TerrainPopulated": 228,
+                "TileEntities": 228,
+                "TileTicks": 10,
+                "V": 228,
+                "xPos": 228,
+                "zPos": 228
+              },
+              "pass_chunks": 228,
+              "root_tags": {
+                "Level": 228
+              },
+              "section_tags": {
+                "BlockLight": 218,
+                "Blocks": 218,
+                "Data": 218,
+                "SkyLight": 218,
+                "Y": 218
+              },
+              "sha256": "b5d7a2d53c89297259c601a6d7ef6756cdf752f35ba028b1638ee47e90002813",
+              "size": 942080,
+              "sky_sections": {
+                "all_zero": 218
+              },
+              "tick_entries": 10,
+              "tick_field_types": {
+                "i:3": 10,
+                "p:3": 10,
+                "t:3": 10,
+                "x:3": 10,
+                "y:3": 10,
+                "z:3": 10
+              }
+            },
+            {
+              "add_sections": {
+                "absent": 190
+              },
+              "compressions": {
+                "2": 247
+              },
+              "errors": [],
+              "file": "r.0.0.mca",
+              "level_tags": {
+                "Biomes": 247,
+                "Entities": 247,
+                "HeightMap": 247,
+                "InhabitedTime": 247,
+                "LastUpdate": 247,
+                "LightPopulated": 247,
+                "Sections": 247,
+                "TerrainPopulated": 247,
+                "TileEntities": 247,
+                "TileTicks": 6,
+                "V": 247,
+                "xPos": 247,
+                "zPos": 247
+              },
+              "pass_chunks": 247,
+              "root_tags": {
+                "Level": 247
+              },
+              "section_tags": {
+                "BlockLight": 190,
+                "Blocks": 190,
+                "Data": 190,
+                "SkyLight": 190,
+                "Y": 190
+              },
+              "sha256": "f19e1067ee332589797a6e6093fc45fed48f4a5c1c9205192025a01cc9d9aa0e",
+              "size": 1019904,
+              "sky_sections": {
+                "all_zero": 190
+              },
+              "tick_entries": 7,
+              "tick_field_types": {
+                "i:3": 7,
+                "p:3": 7,
+                "t:3": 7,
+                "x:3": 7,
+                "y:3": 7,
+                "z:3": 7
+              }
+            }
+          ],
+          "status": "SCANNED"
+        }
+      ],
+      "errors": [],
+      "id": "vanilla",
+      "level": {
+        "metadata": {
+          "MapFeatures": {
+            "type": 1,
+            "value": 1
+          },
+          "RandomSeed": {
+            "type": 4,
+            "value": 123456789
+          },
+          "generatorName": {
+            "type": 8,
+            "value": "default"
+          },
+          "generatorOptions": {
+            "type": 8,
+            "value": ""
+          },
+          "generatorVersion": {
+            "type": 3,
+            "value": 1
+          },
+          "version": {
+            "type": 3,
+            "value": 19133
+          }
+        },
+        "root_tags": [
+          "Data"
+        ],
+        "sha256": "8da80301ddefea5b3bf626feeedc1345e709e34939231af04f87c2de181c6695",
+        "size": 955
+      },
+      "other_dimensions": []
+    },
+    {
+      "dimensions": [
+        {
+          "directory": "region",
+          "pass_chunks": 716,
+          "regions": [
+            {
+              "add_sections": {
+                "absent": 1150
+              },
+              "compressions": {
+                "2": 198
+              },
+              "errors": [],
+              "file": "r.-1.-1.mca",
+              "level_tags": {
+                "Biomes": 198,
+                "Entities": 198,
+                "HeightMap": 198,
+                "InhabitedTime": 198,
+                "LastUpdate": 198,
+                "LightPopulated": 198,
+                "Sections": 198,
+                "TerrainPopulated": 198,
+                "TileEntities": 198,
+                "V": 198,
+                "xPos": 198,
+                "zPos": 198
+              },
+              "pass_chunks": 198,
+              "root_tags": {
+                "Level": 198
+              },
+              "section_tags": {
+                "BlockLight": 1150,
+                "Blocks": 1150,
+                "Data": 1150,
+                "SkyLight": 1150,
+                "Y": 1150
+              },
+              "sha256": "adf286951b8f99b5b6c459eb405afe0f2e6f81ea73d61adde8c2b29e353961fa",
+              "size": 851968,
+              "sky_sections": {
+                "all_zero": 717,
+                "nonzero": 433
+              },
+              "tick_entries": 0,
+              "tick_field_types": {}
+            },
+            {
+              "add_sections": {
+                "absent": 2656
+              },
+              "compressions": {
+                "2": 492
+              },
+              "errors": [],
+              "file": "r.-1.0.mca",
+              "level_tags": {
+                "Biomes": 492,
+                "Entities": 492,
+                "HeightMap": 492,
+                "InhabitedTime": 492,
+                "LastUpdate": 492,
+                "LightPopulated": 492,
+                "Sections": 492,
+                "TerrainPopulated": 492,
+                "TileEntities": 492,
+                "V": 492,
+                "xPos": 492,
+                "zPos": 492
+              },
+              "pass_chunks": 492,
+              "root_tags": {
+                "Level": 492
+              },
+              "section_tags": {
+                "BlockLight": 2656,
+                "Blocks": 2656,
+                "Data": 2656,
+                "SkyLight": 2656,
+                "Y": 2656
+              },
+              "sha256": "28a4bb060db0083045adcd430238373e962c17830fcfb212d6d746c9d3f9ab30",
+              "size": 2191360,
+              "sky_sections": {
+                "all_zero": 1685,
+                "nonzero": 971
+              },
+              "tick_entries": 0,
+              "tick_field_types": {}
+            },
+            {
+              "add_sections": {
+                "absent": 40
+              },
+              "compressions": {
+                "2": 7
+              },
+              "errors": [],
+              "file": "r.0.-1.mca",
+              "level_tags": {
+                "Biomes": 7,
+                "Entities": 7,
+                "HeightMap": 7,
+                "InhabitedTime": 7,
+                "LastUpdate": 7,
+                "LightPopulated": 7,
+                "Sections": 7,
+                "TerrainPopulated": 7,
+                "TileEntities": 7,
+                "V": 7,
+                "xPos": 7,
+                "zPos": 7
+              },
+              "pass_chunks": 7,
+              "root_tags": {
+                "Level": 7
+              },
+              "section_tags": {
+                "BlockLight": 40,
+                "Blocks": 40,
+                "Data": 40,
+                "SkyLight": 40,
+                "Y": 40
+              },
+              "sha256": "8283546776436f5b79c2e60ca936ed1f5b6d4a0a14df129f00d30c82f765aabf",
+              "size": 36864,
+              "sky_sections": {
+                "all_zero": 28,
+                "nonzero": 12
+              },
+              "tick_entries": 0,
+              "tick_field_types": {}
+            },
+            {
+              "add_sections": {
+                "absent": 124
+              },
+              "compressions": {
+                "2": 19
+              },
+              "errors": [],
+              "file": "r.0.0.mca",
+              "level_tags": {
+                "Biomes": 19,
+                "Entities": 19,
+                "HeightMap": 19,
+                "InhabitedTime": 19,
+                "LastUpdate": 19,
+                "LightPopulated": 19,
+                "Sections": 19,
+                "TerrainPopulated": 19,
+                "TileEntities": 19,
+                "V": 19,
+                "xPos": 19,
+                "zPos": 19
+              },
+              "pass_chunks": 19,
+              "root_tags": {
+                "Level": 19
+              },
+              "section_tags": {
+                "BlockLight": 124,
+                "Blocks": 124,
+                "Data": 124,
+                "SkyLight": 124,
+                "Y": 124
+              },
+              "sha256": "2a48ae3b834a0ab5bf05d266b3c7d6359dc08ed51fed90c4a63676b5894a5b0d",
+              "size": 86016,
+              "sky_sections": {
+                "all_zero": 85,
+                "nonzero": 39
+              },
+              "tick_entries": 0,
+              "tick_field_types": {}
+            }
+          ],
+          "status": "SCANNED"
+        },
+        {
+          "directory": "DIM-1/region",
+          "pass_chunks": 779,
+          "regions": [
+            {
+              "add_sections": {
+                "absent": 1817
+              },
+              "compressions": {
+                "2": 227
+              },
+              "errors": [],
+              "file": "r.-1.-1.mca",
+              "level_tags": {
+                "Biomes": 227,
+                "Entities": 227,
+                "HeightMap": 227,
+                "InhabitedTime": 227,
+                "LastUpdate": 227,
+                "LightPopulated": 227,
+                "Sections": 227,
+                "TerrainPopulated": 227,
+                "TileEntities": 227,
+                "TileTicks": 150,
+                "V": 227,
+                "xPos": 227,
+                "zPos": 227
+              },
+              "pass_chunks": 227,
+              "root_tags": {
+                "Level": 227
+              },
+              "section_tags": {
+                "BlockLight": 1817,
+                "Blocks": 1817,
+                "Data": 1817,
+                "SkyLight": 1817,
+                "Y": 1817
+              },
+              "sha256": "06cdb1c21249d575b4e311ee34e244f749ec390de13dc0f484ec71fc5eb333af",
+              "size": 983040,
+              "sky_sections": {
+                "all_zero": 1817
+              },
+              "tick_entries": 858,
+              "tick_field_types": {
+                "i:3": 858,
+                "p:3": 858,
+                "t:3": 858,
+                "x:3": 858,
+                "y:3": 858,
+                "z:3": 858
+              }
+            },
+            {
+              "add_sections": {
+                "absent": 1570
+              },
+              "compressions": {
+                "2": 221
+              },
+              "errors": [],
+              "file": "r.-1.0.mca",
+              "level_tags": {
+                "Biomes": 221,
+                "Entities": 221,
+                "HeightMap": 221,
+                "InhabitedTime": 221,
+                "LastUpdate": 221,
+                "LightPopulated": 221,
+                "Sections": 221,
+                "TerrainPopulated": 221,
+                "TileEntities": 221,
+                "TileTicks": 95,
+                "V": 221,
+                "xPos": 221,
+                "zPos": 221
+              },
+              "pass_chunks": 221,
+              "root_tags": {
+                "Level": 221
+              },
+              "section_tags": {
+                "BlockLight": 1570,
+                "Blocks": 1570,
+                "Data": 1570,
+                "SkyLight": 1570,
+                "Y": 1570
+              },
+              "sha256": "97dd9531b0e9d0a3015add71b289dc6ea9c5af2ecc202f8f7071a4bbb1f52968",
+              "size": 942080,
+              "sky_sections": {
+                "all_zero": 1570
+              },
+              "tick_entries": 366,
+              "tick_field_types": {
+                "i:3": 366,
+                "p:3": 366,
+                "t:3": 366,
+                "x:3": 366,
+                "y:3": 366,
+                "z:3": 366
+              }
+            },
+            {
+              "add_sections": {
+                "absent": 1306
+              },
+              "compressions": {
+                "2": 163
+              },
+              "errors": [],
+              "file": "r.0.-1.mca",
+              "level_tags": {
+                "Biomes": 163,
+                "Entities": 163,
+                "HeightMap": 163,
+                "InhabitedTime": 163,
+                "LastUpdate": 163,
+                "LightPopulated": 163,
+                "Sections": 163,
+                "TerrainPopulated": 163,
+                "TileEntities": 163,
+                "TileTicks": 92,
+                "V": 163,
+                "xPos": 163,
+                "zPos": 163
+              },
+              "pass_chunks": 163,
+              "root_tags": {
+                "Level": 163
+              },
+              "section_tags": {
+                "BlockLight": 1306,
+                "Blocks": 1306,
+                "Data": 1306,
+                "SkyLight": 1306,
+                "Y": 1306
+              },
+              "sha256": "e81415c481dc1d93765b4dc33420f8473e66411cbe39a6bd0de9dea3f0f313a6",
+              "size": 737280,
+              "sky_sections": {
+                "all_zero": 1306
+              },
+              "tick_entries": 412,
+              "tick_field_types": {
+                "i:3": 412,
+                "p:3": 412,
+                "t:3": 412,
+                "x:3": 412,
+                "y:3": 412,
+                "z:3": 412
+              }
+            },
+            {
+              "add_sections": {
+                "absent": 1287
+              },
+              "compressions": {
+                "2": 168
+              },
+              "errors": [],
+              "file": "r.0.0.mca",
+              "level_tags": {
+                "Biomes": 168,
+                "Entities": 168,
+                "HeightMap": 168,
+                "InhabitedTime": 168,
+                "LastUpdate": 168,
+                "LightPopulated": 168,
+                "Sections": 168,
+                "TerrainPopulated": 168,
+                "TileEntities": 168,
+                "TileTicks": 107,
+                "V": 168,
+                "xPos": 168,
+                "zPos": 168
+              },
+              "pass_chunks": 168,
+              "root_tags": {
+                "Level": 168
+              },
+              "section_tags": {
+                "BlockLight": 1287,
+                "Blocks": 1287,
+                "Data": 1287,
+                "SkyLight": 1287,
+                "Y": 1287
+              },
+              "sha256": "ba1fa5a5f090faa51f4c6811a7fba408b8a5ed1d7374eaf1389087c6df4b3def",
+              "size": 733184,
+              "sky_sections": {
+                "all_zero": 1287
+              },
+              "tick_entries": 573,
+              "tick_field_types": {
+                "i:3": 573,
+                "p:3": 573,
+                "t:3": 573,
+                "x:3": 573,
+                "y:3": 573,
+                "z:3": 573
+              }
+            }
+          ],
+          "status": "SCANNED"
+        },
+        {
+          "directory": "DIM1/region",
+          "pass_chunks": 626,
+          "regions": [
+            {
+              "add_sections": {
+                "absent": 184
+              },
+              "compressions": {
+                "2": 72
+              },
+              "errors": [],
+              "file": "r.-1.-1.mca",
+              "level_tags": {
+                "Biomes": 72,
+                "Entities": 72,
+                "HeightMap": 72,
+                "InhabitedTime": 72,
+                "LastUpdate": 72,
+                "LightPopulated": 72,
+                "Sections": 72,
+                "TerrainPopulated": 72,
+                "TileEntities": 72,
+                "TileTicks": 4,
+                "V": 72,
+                "xPos": 72,
+                "zPos": 72
+              },
+              "pass_chunks": 72,
+              "root_tags": {
+                "Level": 72
+              },
+              "section_tags": {
+                "BlockLight": 184,
+                "Blocks": 184,
+                "Data": 184,
+                "SkyLight": 184,
+                "Y": 184
+              },
+              "sha256": "c2b162868c37241e679d359ccc67dba5e6fab098e6ccd60ddfef419ac1052f43",
+              "size": 303104,
+              "sky_sections": {
+                "all_zero": 184
+              },
+              "tick_entries": 4,
+              "tick_field_types": {
+                "i:3": 4,
+                "p:3": 4,
+                "t:3": 4,
+                "x:3": 4,
+                "y:3": 4,
+                "z:3": 4
+              }
+            },
+            {
+              "add_sections": {
+                "absent": 151
+              },
+              "compressions": {
+                "2": 79
+              },
+              "errors": [],
+              "file": "r.-1.0.mca",
+              "level_tags": {
+                "Biomes": 79,
+                "Entities": 79,
+                "HeightMap": 79,
+                "InhabitedTime": 79,
+                "LastUpdate": 79,
+                "LightPopulated": 79,
+                "Sections": 79,
+                "TerrainPopulated": 79,
+                "TileEntities": 79,
+                "TileTicks": 1,
+                "V": 79,
+                "xPos": 79,
+                "zPos": 79
+              },
+              "pass_chunks": 79,
+              "root_tags": {
+                "Level": 79
+              },
+              "section_tags": {
+                "BlockLight": 151,
+                "Blocks": 151,
+                "Data": 151,
+                "SkyLight": 151,
+                "Y": 151
+              },
+              "sha256": "908f4ad3455835ca1fa137163655caaceac8463a90d18ceb87b061cf68a21504",
+              "size": 331776,
+              "sky_sections": {
+                "all_zero": 151
+              },
+              "tick_entries": 1,
+              "tick_field_types": {
+                "i:3": 1,
+                "p:3": 1,
+                "t:3": 1,
+                "x:3": 1,
+                "y:3": 1,
+                "z:3": 1
+              }
+            },
+            {
+              "add_sections": {
+                "absent": 191
+              },
+              "compressions": {
+                "2": 228
+              },
+              "errors": [],
+              "file": "r.0.-1.mca",
+              "level_tags": {
+                "Biomes": 228,
+                "Entities": 228,
+                "HeightMap": 228,
+                "InhabitedTime": 228,
+                "LastUpdate": 228,
+                "LightPopulated": 228,
+                "Sections": 228,
+                "TerrainPopulated": 228,
+                "TileEntities": 228,
+                "TileTicks": 4,
+                "V": 228,
+                "xPos": 228,
+                "zPos": 228
+              },
+              "pass_chunks": 228,
+              "root_tags": {
+                "Level": 228
+              },
+              "section_tags": {
+                "BlockLight": 191,
+                "Blocks": 191,
+                "Data": 191,
+                "SkyLight": 191,
+                "Y": 191
+              },
+              "sha256": "c6bf5c6588d0ad9831378cd7b495fead66d600bd1e23c191e0c381348ae13fcd",
+              "size": 942080,
+              "sky_sections": {
+                "all_zero": 191
+              },
+              "tick_entries": 4,
+              "tick_field_types": {
+                "i:3": 4,
+                "p:3": 4,
+                "t:3": 4,
+                "x:3": 4,
+                "y:3": 4,
+                "z:3": 4
+              }
+            },
+            {
+              "add_sections": {
+                "absent": 159
+              },
+              "compressions": {
+                "2": 247
+              },
+              "errors": [],
+              "file": "r.0.0.mca",
+              "level_tags": {
+                "Biomes": 247,
+                "Entities": 247,
+                "HeightMap": 247,
+                "InhabitedTime": 247,
+                "LastUpdate": 247,
+                "LightPopulated": 247,
+                "Sections": 247,
+                "TerrainPopulated": 247,
+                "TileEntities": 247,
+                "TileTicks": 2,
+                "V": 247,
+                "xPos": 247,
+                "zPos": 247
+              },
+              "pass_chunks": 247,
+              "root_tags": {
+                "Level": 247
+              },
+              "section_tags": {
+                "BlockLight": 159,
+                "Blocks": 159,
+                "Data": 159,
+                "SkyLight": 159,
+                "Y": 159
+              },
+              "sha256": "b19fda4b4f27dac572b706d1aed3d4937e290f9bc11ab7591b6e9925bc0b07b4",
+              "size": 1019904,
+              "sky_sections": {
+                "all_zero": 159
+              },
+              "tick_entries": 2,
+              "tick_field_types": {
+                "i:3": 2,
+                "p:3": 2,
+                "t:3": 2,
+                "x:3": 2,
+                "y:3": 2,
+                "z:3": 2
+              }
+            }
+          ],
+          "status": "SCANNED"
+        }
+      ],
+      "errors": [],
+      "id": "forge",
+      "level": {
+        "metadata": {
+          "MapFeatures": {
+            "type": 1,
+            "value": 1
+          },
+          "RandomSeed": {
+            "type": 4,
+            "value": 123456789
+          },
+          "generatorName": {
+            "type": 8,
+            "value": "default"
+          },
+          "generatorOptions": {
+            "type": 8,
+            "value": ""
+          },
+          "generatorVersion": {
+            "type": 3,
+            "value": 1
+          },
+          "version": {
+            "type": 3,
+            "value": 19133
+          }
+        },
+        "root_tags": [
+          "Data",
+          "FML",
+          "Forge"
+        ],
+        "sha256": "9c831d3bfc2c366f5ff3983719261ae36d30cc632059047c58863c9b1993dded",
+        "size": 5304
+      },
+      "other_dimensions": []
+    }
+  ]
+}
