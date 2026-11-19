@@ -1,0 +1,93 @@
+{
+  "status": {
+    "handshake": {
+      "protocol": 5,
+      "host": "127.0.0.1",
+      "port": 25565,
+      "next_state": 1,
+      "frame_hex": "0f0005093132372e302e302e3163dd01"
+    },
+    "version": {
+      "name": "1.7.10",
+      "protocol": 5
+    },
+    "online": 0,
+    "max_players": 20,
+    "pong_hex": "0102030405060708"
+  },
+  "login_play": {
+    "handshake": {
+      "protocol": 5,
+      "host": "127.0.0.1",
+      "port": 25565,
+      "next_state": 2,
+      "frame_hex": "0f0005093132372e302e302e3163dd02"
+    },
+    "login_name": "S07Probe",
+    "offline_uuid_matches": true,
+    "join_game": {
+      "entity_id": 0,
+      "game_mode": 0,
+      "dimension": 0,
+      "difficulty": 1,
+      "max_players": 20,
+      "level_type": "flat"
+    },
+    "position": {
+      "x": 592.5,
+      "y": 5.620000004768372,
+      "z": 1550.5,
+      "yaw": 0.0,
+      "pitch": 0.0,
+      "on_ground": false
+    },
+    "chunk_bulk": {
+      "columns": [
+        {
+          "x": 37,
+          "z": 96,
+          "primary_bitmap": 1,
+          "add_bitmap": 0,
+          "expanded_bytes": 10496,
+          "sha256": "80cdec8ce1a50778825cb103ef55f59361137f4cf2b4fd83433943d656388d09"
+        },
+        {
+          "x": 38,
+          "z": 96,
+          "primary_bitmap": 1,
+          "add_bitmap": 0,
+          "expanded_bytes": 10496,
+          "sha256": "80cdec8ce1a50778825cb103ef55f59361137f4cf2b4fd83433943d656388d09"
+        },
+        {
+          "x": 38,
+          "z": 97,
+          "primary_bitmap": 1,
+          "add_bitmap": 0,
+          "expanded_bytes": 10496,
+          "sha256": "80cdec8ce1a50778825cb103ef55f59361137f4cf2b4fd83433943d656388d09"
+        },
+        {
+          "x": 37,
+          "z": 97,
+          "primary_bitmap": 1,
+          "add_bitmap": 0,
+          "expanded_bytes": 10496,
+          "sha256": "80cdec8ce1a50778825cb103ef55f59361137f4cf2b4fd83433943d656388d09"
+        },
+        {
+          "x": 36,
+          "z": 97,
+          "primary_bitmap": 1,
+          "add_bitmap": 0,
+          "expanded_bytes": 10496,
+          "sha256": "80cdec8ce1a50778825cb103ef55f59361137f4cf2b4fd83433943d656388d09"
+        }
+      ],
+      "sky_light": true,
+      "compressed_bytes": 167,
+      "expanded_bytes": 52480
+    },
+    "chunk_single": null
+  }
+}
