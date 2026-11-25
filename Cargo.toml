@@ -1,0 +1,3 @@
+[workspace]
+members = ["crates/ferrite-server"]
+resolver = "3"
