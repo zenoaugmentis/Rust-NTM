@@ -3,7 +3,7 @@
 
 Default mode is OFFLINE / DRY RUN. Remote mutations require --apply and an
 explicit milestone selection or --all. Requires GitHub CLI (gh) in apply mode.
-Stable [A01]/[EPIC M0] prefixes allow safe repeat runs; no existing issues
+Stable [D01]/[EPIC M10] prefixes allow safe repeat runs; no existing issues
 are modified except adding missing issue-dependency relationships.
 """
 import argparse
@@ -38,7 +38,7 @@ def issue_body(t, repo):
     deps=', '.join(f'`{d}`' for d in t['depends_on']) or 'Нет'
     paths='\n'.join(f'- `{p}`' for p in t['paths']) or '- Согласовать с исполнителем'
     note=(f'\n## Дополнительно\n{t["notes"]}\n' if t.get('notes') else '')
-    return f'''<!-- horizon-ntm-plan:{t['id']} -->
+    return f'''<!-- rust-ntm-plan:{t['id']} -->
 ## Цель
 {t['title']}
 
@@ -51,7 +51,7 @@ def issue_body(t, repo):
 ## Предполагаемые точки входа
 {paths}
 
-> Путь должен быть проверен после фиксации upstream SHA. Не считать его единственно возможной точкой изменения.
+> Размещение новых компонентов уточняется в PR по фактическому дереву Rust-NTM.
 
 ## Зависимости (стабильные ID)
 {deps}
@@ -68,7 +68,7 @@ def issue_body(t, repo):
 
 
 def epic_body(k, m, ts):
-    body=f'''<!-- horizon-ntm-epic:{k} -->
+    body=f'''<!-- rust-ntm-epic:{k} -->
 # {k}: {m['title']}
 
 {m['description']}
@@ -120,7 +120,7 @@ def import_plan(data, wanted, repo):
     for x in sorted(needed_labels-label_names):
         group=x.split(':',1)[0]
         print('LABEL +',x)
-        gh('label','create',x,'-R',repo,'--color',COLOR.get(group,'CFD3D7'),'--description','Horizon-NTM roadmap category')
+        gh('label','create',x,'-R',repo,'--color',COLOR.get(group,'CFD3D7'),'--description','Rust-NTM roadmap category')
     for k in wanted:
         m=data['milestones'][k]
         if m['title'] not in ms_names:
@@ -168,7 +168,7 @@ def import_plan(data, wanted, repo):
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--apply',action='store_true',help='Create missing labels, milestones, epics, issues, dependencies remotely')
-    parser.add_argument('--milestones',nargs='+',help='Example: --milestones M0 M1')
+    parser.add_argument('--milestones',nargs='+',help='Example: --milestones M10 M11')
     parser.add_argument('--all',action='store_true',help='Explicitly select all milestones (especially with --apply)')
     parser.add_argument('--repo',default=None,help='Explicit OWNER/REPO; default from backlog.json')
     args=parser.parse_args()
@@ -179,7 +179,7 @@ def main():
         invalid=set(args.milestones)-set(data['milestones'])
         if invalid:parser.error(f'Unknown milestones: {sorted(invalid)}')
     if args.apply and not (args.milestones or args.all):
-        parser.error('Safety guard: remote import requires --milestones M0 M1 or explicit --all')
+        parser.error('Safety guard: remote import requires --milestones M10 M11 or explicit --all')
     wanted=list(dict.fromkeys(args.milestones or list(data['milestones'])))
     selected=[x for x in data['tasks'] if x['milestone'] in wanted]
     counts={k:sum(x['milestone']==k for x in selected) for k in wanted}
@@ -189,7 +189,7 @@ def main():
     for t in selected:
         print(f" {t['id']:>3} [{t['priority']}/{t['kind']}] {t['title']}  <- {','.join(t['depends_on']) or '-'}")
     if not args.apply:
-        print('\nNothing was changed. Use --apply --milestones M0 M1 after reviewing targets and logging into gh.')
+        print('\nNothing was changed. Use --apply --milestones M10 M11 after reviewing targets and logging into gh.')
         return
     import_plan(data,wanted,repo)
 
