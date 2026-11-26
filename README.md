@@ -1,2 +1,11 @@
 # Rust-NTM
-A Rust-powered rewrite of Minecraft 1.7.10 based on Horizon engine, featuring native ports of HBM NTM, MCHeli, and OpenComputers.
+
+Rust-NTM — самостоятельная реализация клиента и сервера на Rust с целью совместимости с Minecraft Java Edition 1.7.10. Первый результат — выделенный сервер, на который заходит ванильный клиент по протоколу 5.
+
+Для сверки поведения используются локальные ванильные и Forge-стенды, спецификации S01–S11 и записанные результаты. Для HBM’s NTM, MCHeli и OpenComputers планируются нативные прототипы с отдельно проверяемыми сценариями. Запуск исходных Forge JAR относится к эталонному стенду.
+
+- [Дорожная карта и первый игровой сеанс](docs/TEAM_ROADMAP.md)
+- [Бэклог и критерии приёмки](planning/backlog.json)
+- [Спецификации эталона](docs/specs/) и [контракты](docs/contracts/)
+- [Результаты прогонов](docs/reports/) и [историческая матрица S11](docs/PARITY_MATRIX.md)
+- [Инструменты](tools/) и [тесты](tests/)
